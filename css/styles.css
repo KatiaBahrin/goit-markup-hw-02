@@ -8,7 +8,7 @@
     --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
-.body {
+body {
     background: #F5F5F5;
     color: var(--main-text-color);
     font-size: 14px;
@@ -36,7 +36,6 @@
 .site-nav .link{
     color: var(--title-text-color)
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -61,6 +60,10 @@
 .contacts-nav .contacts:hover,
 .contacts-nav .contacts:focus {
     color: var(--accent-color)
+}
+
+.hero {
+    background; #2f303a;
 }
 
 .hero-title {
@@ -99,7 +102,7 @@
     line-height: 1.14;
 }
 
-.section-title {
+.second-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -114,17 +117,28 @@
     line-height: 1.18;
 }
 
+.profession {
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.footer {
+    background: #2f303a;
+}
+
 .footer .studio {
     color: var(--primary-color-white);
 }
 
-.footer .address p {
+.footer .address-footer {
     font-style: normal;
     color: var(--primary-color-white);
     line-height: 1.71;
 }
 
-.footer .address a {
+.footer .contacts-footer {
     font-style: normal;
     color: var(--footer-contact-color);
     line-height: 1.71;
@@ -138,16 +152,18 @@
     cursor: pointer;
 }
 
-.button.primary {
+.button-primary {
     color: var(--title-text-color);
     background-color: var(--second-bg-color);
     cursor: pointer;
+    font-family: inherit;
 }
 
-.button.second {
+.button-second {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
     cursor: pointer;
+    font-family: inherit;
 }
 
 .project-sections .button {

@@ -16,6 +16,10 @@ body {
         letter-spacing: 0.03em;
 }
 
+.header-section {
+  background: #2f303a;
+}
+
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;

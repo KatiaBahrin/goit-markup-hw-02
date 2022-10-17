@@ -1,188 +1,211 @@
 :root {
-    --main-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primary-color-white: #FFFFFF;
-    --color-black: #000;
-    --second-background-color: #F5F4FA;
-    --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-color-white: #ffffff;
+  --color-black: #000;
+  --second-background-color: #f5f4fa;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-    background: #F5F5F5;
-    color: var(--main-text-color);
-    font-size: 14px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0.03em;
+  background: #ffffff;
+  color: var(--main-text-color);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .logo {
-    color: var(--accent-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .studio {
-    color: var(--color-black);
+  color: var(--color-black);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
-.site-nav .link{
-    color: var(--title-text-color)
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .contacts-nav .contacts {
-    color: var(--main-text-color)
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts-nav .contacts:hover,
 .contacts-nav .contacts:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .hero {
   background: #2f303a;
 }
-
 .hero-title {
-    color: var(--primary-color-white);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+  color: var(--primary-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 .hero .button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features-list .title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.aboutworkers {
+  background: #f5f4fa;
 }
 
 .second-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.third-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .team-list .title {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .profession {
-    color: var(--main-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .footer {
-    background: #2f303a;
+  background: #2f303a;
 }
 
 .footer .studio {
-    color: var(--primary-color-white);
+  color: var(--primary-color-white);
 }
 
-.footer .address-footer {
-    font-style: normal;
-    color: var(--primary-color-white);
-    line-height: 1.71;
+.contact.list a:hover,
+.contact.list a:focus {
+  color: var(--accent-color);
 }
 
-.footer .contacts-footer {
-    font-style: normal;
-    color: var(--footer-contact-color);
-    line-height: 1.71;
-    text-decoration: none;
+.footer .address-footer a {
+  font-style: normal;
+  color: var(--primary-color-white);
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer .contacts-footer a {
+  font-style: normal;
+  color: var(--footer-contact-color);
+  line-height: 1.71;
+  text-decoration: none;
 }
 
 .button {
-    color: var(--primary-color-white);
-    background-color: var(--accent-color);
-    font-family: inherit;
-    cursor: pointer;
+  color: var(--primary-color-white);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .button-primary {
-    color: var(--title-text-color);
-    background-color: var(--second-bg-color);
-    cursor: pointer;
-    font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--second-bg-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button-second {
-    color: var(--primary-color-white);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    font-family: inherit;
+  font-family: inherit;
+  color: var(--primary-color-white);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .project-sections .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
-.project-sections .button:hover,
-.project-sections .button:focus {
-    color: var(--primary-color-white);
-    background-color: var(--accent-color);
+.projects.list .button-primary:hover,
+.projects.list .button-primary:focus {
+  color: var(--primary-color-white);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .applications-list .second-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-
